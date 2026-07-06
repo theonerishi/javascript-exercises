@@ -1,5 +1,5 @@
 const factorial = require("./factorial");
-
+ 
 describe('factorial', () => {
   test('4th factorial number is 24', () => {
     expect(factorial(4)).toBe(24);
