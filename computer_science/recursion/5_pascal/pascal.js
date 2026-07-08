@@ -9,7 +9,7 @@ const pascal = function(n) {
             } else {
                 arr2.push(arr[row - 1][i-1] + arr[row - 1][i]);
             }
-        }
+        } 
     }
 };
   
